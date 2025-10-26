@@ -15,10 +15,8 @@ function App() {
   return (
     <SafeAreaProvider>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      {/* Pantalla inicial: Login */}
       <LoginScreen
         onLogin={(creds) => {
-          // Manejar login: reemplaza con navegación o lógica real
           console.log('Login credentials:', creds);
         }}
       />
